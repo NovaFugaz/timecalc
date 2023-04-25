@@ -5,7 +5,7 @@ function sumarTiempos() {
   let milisegundosTotales = 0;
 
   // Iterar por todas las filas de tiempos
-  $('.row:not(:last-child)').each(function() {
+  $('tr').each(function() {
     const horas = parseInt($(this).find('.horas').val());
     const minutos = parseInt($(this).find('.minutos').val());
     const segundos = parseInt($(this).find('.segundos').val());
@@ -28,7 +28,7 @@ function sumarTiempos() {
   minutosTotales = minutosTotales % 60;
 
   // Formatear y mostrar el tiempo total
-  const tiempoTotal = `${horasTotales.toString().padStart(2, '0')}:${minutosTotales.toString().padStart(2, '0')}:${segundosTotales.toString().padStart(2, '0')}.${milisegundosTotales.toString().padStart(3, '0')}`;
+  const tiempoTotal = `${horasTotales.toString().padStart(2, '0')}h ${minutosTotales.toString().padStart(2, '0')}m ${segundosTotales.toString().padStart(2, '0')}s ${milisegundosTotales.toString().padStart(3, '0')}ms`;
   $('#totalTime').val(tiempoTotal);
 }
 
