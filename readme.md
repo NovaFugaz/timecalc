@@ -23,7 +23,7 @@ The calculator has working rows for time calc purposes for each, ms, ss, mm and 
 ![](./screenshots/2.png)
 ![](./screenshots/3.png)
 
-When opened "add row" another row is added at the bottom. No input added is cloned when this button is pressed and calculations proceed every time you press "calculate"
+When "add row" is clicked another row is added at the bottom. No input added is cloned when this button is pressed and calculations proceed every time you press "calculate"
 
 ![](./screenshots/4.png)
 
