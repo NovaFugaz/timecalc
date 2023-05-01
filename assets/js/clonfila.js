@@ -9,7 +9,11 @@ document.addEventListener('DOMContentLoaded', function() {
       // Reiniciar los valores para la nueva fila
 
       newRow.querySelectorAll('input').forEach(function(input) {
-        input.value = 0;
+        if (input.classList.contains('name')) {
+          input.value = '';
+        } else {
+          input.value = 0;
+        }
       });
   
       // Insertar la nueva fila después de la última fila
