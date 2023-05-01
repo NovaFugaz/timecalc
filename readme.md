@@ -45,4 +45,4 @@ I think that's it.
 
 ## Links
 
-My github is this one, hi (?). I seriously need to finish my readme (i'm working on it, i swear). The calculator is live on: [Nacchi's Time Calculator](https://novafugaz.github.io/timecalc/) and I'm open to questions in here, my [twitter](https://twitter.com/ARagingStorm) and my speedrun.com account([NovaFugaz - speedrun.com](https://www.speedrun.com/user/NovaFugaz)).
+My github is this one, hi (?). I seriously need to finish my readme (i'm working on it, i swear). The calculator is live on: [Nacchi's Time Calculator](https://novafugaz.github.io/timecalc/) and I'm open to questions in here, my [twitter](https://twitter.com/ARagingStorm) and my speedrun.com account ([NovaFugaz - speedrun.com](https://www.speedrun.com/user/NovaFugaz)).
