@@ -6,6 +6,10 @@ Yes. *This is literally a **"fine, I'll do it myself"*** project, made out of pu
 
 And yes, I don't know how to create a readme.
 
+### Update (20/08/2023)
+
+The TimeCalculator now exports to csv and the explanation container was removed now that this readme has been done and I have my own one.
+
 ## Contents
 
 - [Screenshots](#screenshots)
@@ -23,26 +27,33 @@ The calculator has working rows for time calc purposes for each, ms, ss, mm and 
 ![](./screenshots/2.png)
 ![](./screenshots/3.png)
 
-When "add row" is clicked another row is added at the bottom. No input added is cloned when this button is pressed and calculations proceed every time you press "calculate"
+When opened "add row" another row is added at the bottom. No input added is cloned when this button is pressed and calculations proceed every time you press "calculate"
 
 ![](./screenshots/4.png)
 
 If "reset to 0" is pressed every row that had had its input value modified is reset to "0". The split name is resetted to an empty value. The added rows stay there. They are removed if you reload the page.
 
+![](./screenshots/data.png)
+![](./screenshots/csv.png)
+
+Now the NTC is able to export data from the rows to a csv. It works also on extra rows, so don't worry, it won't be a mess :3
+
+![](./screenshots/extra.png)
+
+
 ## To-Do
 
 Temporarily, I want to add some things, and I'll list them here.
-
-- I want to change the functionality of the green button so I can add a "Export to (CSV)". I say CSV here as I found jquery can handle that and as this is made with HTML/Bootstrap/CSS/JS/JQuery only, and I just started learning this, I thing I may be able to do something like that in a near future.
 
 - I want to add an slider that let's y'all select night/light mode. (That may come soon, I already know how to do that, but I don't want to break the minimal design) with an awfully placed slider.
 
 - Add a favicon.
 
-- I don't know if I should add to the reset to zero button the function to remove the added rows. I think I'll leave it in this current status.
+- I don't know if I should add to the reset to zero button the function to remove the added rows. I think I'll leave it in this current status. You can always reload the page and for many long runs of the same game (I'm looking at you, F1 2010 runs), it's better to have it that way.
 
 I think that's it.
 
 ## Links
 
-My github is this one, hi (?). I seriously need to finish my readme (i'm working on it, i swear). The calculator is live on: [Nacchi's Time Calculator](https://novafugaz.github.io/timecalc/) and I'm open to questions in here, my [twitter](https://twitter.com/ARagingStorm) and my speedrun.com account ([NovaFugaz - speedrun.com](https://www.speedrun.com/user/NovaFugaz)).
+My github is this one, hi (?).
+The calculator is live on: [Nacchi's Time Calculator](https://novafugaz.github.io/timecalc/) and I'm open to questions in here, my [twitter](https://twitter.com/NovaFugaz) and my speedrun.com account ([NovaFugaz - speedrun.com](https://www.speedrun.com/user/NovaFugaz)).
